@@ -1,0 +1,12 @@
+{
+    "project_name": "CB Frontend module",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "pkg_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "Skeleton project for a new CB Frontend module",
+    "full_name": "Shahraiz Ali",
+    "email": "shahraiz.ali@crowdbotics.com",
+    "camel_case_name": "{{cookiecutter.project_name | to_camel }}",
+    "_extensions": [
+        "jinja2_strcase.StrcaseExtension"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "title": "{{cookiecutter.project_name}}",
+    "description": "{{cookiecutter.project_short_description}}",
+    "root": "/modules/{{cookiecutter.project_name}}"
+}
