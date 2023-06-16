@@ -9,7 +9,7 @@ export const {{cookiecutter.camel_case_name}}List = createAsyncThunk(
   }
 );
 
-const initialState = { {{cookiecutter.project_slug}}: {}, api: { loading: "idle", error: null } };
+const initialState = { {{{cookiecutter.camel_case_name}}: {}, api: { loading: "idle", error: null } };
 
 export const slice = createSlice({
   name: "{{cookiecutter.camel_case_name}}",
